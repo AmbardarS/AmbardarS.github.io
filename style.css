@@ -16,9 +16,9 @@
   --orange-text: #633806;
   --navy-light: #E6F1FB;
   --navy-text: #0C447C;
-  --text: #0d0d0d;
-  --text-secondary: #333;
-  --text-muted: #666;
+  --text: #050505;
+  --text-secondary: #222;
+  --text-muted: #555;
   --border: rgba(0,0,0,0.1);
   --bg: #fff;
   --bg-secondary: #f7f7f5;
@@ -151,8 +151,8 @@ img {
 }
 
 .hero-photo {
-  width: 150px;
-  height: 190px;
+  width: 180px;
+  height: 225px;
   border-radius: 8px;
   object-fit: cover;
   object-position: center top;
@@ -161,8 +161,8 @@ img {
 }
 
 .hero-photo-placeholder {
-  width: 150px;
-  height: 190px;
+  width: 180px;
+  height: 225px;
   border-radius: 8px;
   background: var(--navy);
   flex-shrink: 0;
@@ -538,8 +538,8 @@ img {
   }
 
   .hero-photo, .hero-photo-placeholder {
-    width: 120px;
-    height: 152px;
+    width: 130px;
+    height: 163px;
   }
 
   .hero-text h1 {
