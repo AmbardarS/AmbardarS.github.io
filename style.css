@@ -145,23 +145,26 @@ img {
 .hero {
   display: flex;
   gap: 36px;
-  align-items: flex-start;
+  align-items: stretch;
   padding: 40px 0 36px;
   border-bottom: 0.5px solid var(--border);
 }
 
 .hero-photo {
-  width: 280px;
-  height: auto;
+  width: 260px;
+  height: 100%;
+  min-height: 320px;
   border-radius: 8px;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center 10%;
   flex-shrink: 0;
   border: 0.5px solid var(--border);
+  align-self: stretch;
+  display: block;
 }
 
 .hero-photo-placeholder {
-  width: 280px;
-  height: 280px;
+  width: 260px;
   border-radius: 8px;
   background: var(--navy);
   flex-shrink: 0;
@@ -172,6 +175,7 @@ img {
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.02em;
+  align-self: stretch;
 }
 
 .hero-text h1 {
@@ -536,6 +540,7 @@ img {
 
   .hero-photo, .hero-photo-placeholder {
     width: 100%;
+    min-height: 200px;
     height: auto;
   }
 
