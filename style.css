@@ -51,7 +51,7 @@ img {
 .nav {
   background: var(--bg);
   border-bottom: 0.5px solid var(--border);
-  padding: 0 48px;
+  padding: 0 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -106,9 +106,9 @@ img {
 
 /* ---- PAGE WRAPPER ---- */
 .page {
-  max-width: 760px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 32px 80px;
+  padding: 0 64px 80px;
 }
 
 /* ---- SECTION ---- */
@@ -144,25 +144,24 @@ img {
 /* ---- HERO ---- */
 .hero {
   display: flex;
-  gap: 28px;
+  gap: 36px;
   align-items: flex-start;
   padding: 40px 0 36px;
   border-bottom: 0.5px solid var(--border);
 }
 
 .hero-photo {
-  width: 180px;
-  height: 225px;
+  width: 280px;
+  height: auto;
   border-radius: 8px;
-  object-fit: cover;
-  object-position: center top;
+  object-fit: contain;
   flex-shrink: 0;
   border: 0.5px solid var(--border);
 }
 
 .hero-photo-placeholder {
-  width: 180px;
-  height: 225px;
+  width: 280px;
+  height: 280px;
   border-radius: 8px;
   background: var(--navy);
   flex-shrink: 0;
@@ -508,14 +507,12 @@ img {
 /* ---- FOOTER ---- */
 .footer {
   border-top: 0.5px solid var(--border);
-  padding: 24px 0;
+  padding: 24px 64px;
   text-align: center;
   font-size: 12px;
   color: var(--text-muted);
-  max-width: 760px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 /* ---- RESPONSIVE ---- */
@@ -538,8 +535,8 @@ img {
   }
 
   .hero-photo, .hero-photo-placeholder {
-    width: 130px;
-    height: 163px;
+    width: 100%;
+    height: auto;
   }
 
   .hero-text h1 {
