@@ -552,6 +552,22 @@ img {
   font-weight: 500;
 }
 
+.glider-video {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.glider-video video {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 8px;
+  border: 0.5px solid var(--border);
+  display: block;
+  background: #000;
+}
+
 .glider-body {
   padding: 24px 0 0;
 }
@@ -647,5 +663,11 @@ img {
 
   .glider-stat:last-child {
     border-bottom: none;
+  }
+
+  .glider-video {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
   }
 }
