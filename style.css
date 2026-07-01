@@ -122,7 +122,7 @@ img {
 }
 
 .section-label {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -340,16 +340,17 @@ img {
 }
 
 .course-card h3 {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--text);
   margin-bottom: 4px;
+  line-height: 1.4;
 }
 
 .course-card p {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-secondary);
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* ---- AWARD BADGE ---- */
