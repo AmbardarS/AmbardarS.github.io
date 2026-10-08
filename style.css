@@ -284,6 +284,9 @@ img {
   color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 8px;
+  max-width: 720px;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .paper-links {
