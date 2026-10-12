@@ -390,10 +390,9 @@ img {
 }
 
 .quote-card p {
-  font-size: 13px;
-  font-style: italic;
+  font-size: 13.5px;
   color: var(--text-secondary);
-  line-height: 1.65;
+  line-height: 1.7;
 }
 
 .quote-source {
