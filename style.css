@@ -359,16 +359,10 @@ img {
   margin: 8px 0 28px;
 }
 
-.quote-heading {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 12px;
-}
-
-.quote-heading span {
-  font-weight: 400;
+.quote-subtitle {
+  font-size: 12px;
   color: var(--text-muted);
+  margin-bottom: 14px;
 }
 
 .quote-grid {
@@ -433,6 +427,25 @@ img {
   font-size: 11px;
   color: var(--text-muted);
   line-height: 1.6;
+}
+
+.award-link {
+  align-items: center;
+  margin-bottom: 0;
+  transition: background 0.15s;
+}
+
+.award-link:hover {
+  background: #f6e3c8;
+}
+
+.award-cta {
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--orange);
+  white-space: nowrap;
 }
 
 /* ---- BELOIT COURSE LIST ---- */
