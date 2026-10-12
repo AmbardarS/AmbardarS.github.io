@@ -246,7 +246,7 @@ img {
 
 /* ---- PAPERS ---- */
 .paper {
-  padding: 16px 0;
+  padding: 11px 0;
   border-bottom: 0.5px solid var(--border);
 }
 
@@ -268,7 +268,7 @@ img {
   color: var(--orange-text);
   font-weight: 600;
   letter-spacing: 0.03em;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .paper h3 {
@@ -276,14 +276,14 @@ img {
   font-weight: 600;
   color: var(--text);
   line-height: 1.4;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .paper p {
   font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.6;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   max-width: 780px;
 }
 
@@ -312,7 +312,7 @@ img {
 
 /* ---- ABSTRACT DROPDOWN ---- */
 .abstract {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .abstract:last-child {
@@ -328,7 +328,7 @@ img {
   color: var(--navy);
   cursor: pointer;
   list-style: none;
-  padding: 2px 0;
+  padding: 1px 0;
 }
 
 .abstract summary::-webkit-details-marker {
