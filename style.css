@@ -287,6 +287,10 @@ img {
   max-width: 780px;
 }
 
+.paper > p:last-child {
+  margin-bottom: 0;
+}
+
 .paper-links {
   display: flex;
   gap: 12px;
@@ -309,6 +313,10 @@ img {
 /* ---- ABSTRACT DROPDOWN ---- */
 .abstract {
   margin-bottom: 8px;
+}
+
+.abstract:last-child {
+  margin-bottom: 0;
 }
 
 .abstract summary {
