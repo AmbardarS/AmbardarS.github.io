@@ -306,6 +306,53 @@ img {
   opacity: 0.7;
 }
 
+/* ---- ABSTRACT DROPDOWN ---- */
+.abstract {
+  margin-bottom: 8px;
+}
+
+.abstract summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--navy);
+  cursor: pointer;
+  list-style: none;
+  padding: 2px 0;
+}
+
+.abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.abstract summary::before {
+  content: '▸';
+  font-size: 14px;
+  line-height: 1;
+  color: var(--orange);
+  transition: transform 0.15s;
+}
+
+.abstract[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.abstract summary:hover {
+  color: var(--orange);
+}
+
+.abstract summary:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.abstract p {
+  margin: 6px 0 0;
+}
+
 /* ---- TEACHING ---- */
 .teaching-phi {
   border-left: 3px solid var(--orange);
